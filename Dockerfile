@@ -10,7 +10,7 @@ RUN apk add --no-cache git
 # Atualização do npm
 RUN npm install 
 
-EXPOSE 8000
+EXPOSE 8080
 
 # Diretório de trabalho dentro do contêiner
 WORKDIR /app
