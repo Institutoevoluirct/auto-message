@@ -7,9 +7,10 @@ FROM mhart/alpine-node:12
 # Instalação do Git
 RUN apk add --no-cache git
 
-
 # Atualização do npm
 RUN npm install 
+
+EXPOSE 8000
 
 # Diretório de trabalho dentro do contêiner
 WORKDIR /app
