@@ -22,4 +22,4 @@ COPY package*.json ./
 RUN npm install
 
 # Comando para iniciar a aplicação
-CMD ["npm", "legacy"]
+CMD ["npm", "run", "legacy"]
